@@ -1,0 +1,397 @@
+img {
+  height: auto;
+  /* 阻止长按图片保存 */
+  pointer-events: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  position: absolute;
+}
+input,
+select {
+  outline: none;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+div {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: rgba(203, 166, 109);
+  position: relative;
+}
+.dn {
+  display: none;
+}
+/* 弹层样式 */
+.layer {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 99;
+}
+body,
+html {
+  background-color: #b4e8e7;
+}
+.home {
+  height: 3497px;
+  position: relative;
+  overflow: hidden;
+}
+.home img {
+  position: absolute;
+}
+.home .home-gy1 {
+  top: 0;
+  left: 0;
+}
+.home .home-bg {
+  top: 0;
+  left: 0;
+}
+.home .home-logo {
+  top: 75px;
+  left: 231px;
+}
+.home .home-title {
+  top: 0;
+  left: 0;
+}
+.home .home-balloon2 {
+  top: 380px;
+  left: 0;
+}
+.home .home-card {
+  width: 750px;
+  height: 639px;
+  position: absolute;
+  top: 394px;
+  left: 0;
+}
+.home .home-woman {
+  top: 1110px;
+  left: 195px;
+}
+.home .home-start {
+  top: 520px;
+  left: 70px;
+}
+.home .home-scard {
+  top: 395px;
+  left: 110px;
+}
+.home .home-love {
+  top: 1580px;
+  left: 0;
+}
+.home .home-balloon {
+  top: 2398px;
+  left: 205px;
+}
+.home .home-home {
+  top: 2985px;
+  left: 85px;
+}
+.p1-poster {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.p1-poster .poster-rule > div {
+  width: 497px;
+  height: 675px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.p1-poster .poster-rule > div .poster-cha {
+  position: absolute;
+  width: 55px;
+  height: 60px;
+  top: 5px;
+  left: 435px;
+}
+.p1-poster .poster {
+  position: relative;
+}
+.p1-poster .poster .p1-bg {
+  top: 0;
+  left: 0;
+}
+.p1-poster .poster .p1-sidai {
+  top: 0;
+  right: 0;
+}
+.p1-poster .poster .p1-start {
+  width: 176px;
+  height: 62px;
+  top: 185px;
+  left: 44px;
+}
+.p1-poster .poster .rule-btn {
+  position: absolute;
+  width: 176px;
+  height: 62px;
+  top: 428px;
+  left: 288px;
+}
+.p1-poster .poster .p1-leave-words {
+  top: 595px;
+  left: 160px;
+}
+.p1-poster .poster .p1-create-poster {
+  width: 298px;
+  height: 147px;
+  position: absolute;
+  top: 1140px;
+  left: 200px;
+}
+@media screen and (max-height: 1230px) {
+  .p1-poster .poster .p1-create-poster {
+    top: 1075px;
+  }
+  .p1-poster .poster .p1-leave-words {
+    top: 565px;
+  }
+}
+.up {
+  width: 100%;
+  height: 100%;
+}
+.up .p2-sidai {
+  top: 0;
+  right: 0;
+}
+.up .p2-start {
+  top: 51px;
+  right: 32px;
+}
+.up .up-center {
+  width: 503px;
+  height: 1130px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.up .up-center ul {
+  width: 512px;
+  height: 92px;
+}
+.up .up-center ul li {
+  width: 90px;
+  height: 92px;
+  float: left;
+  margin-right: 12px;
+}
+.up .up-center .p2-center-box {
+  width: 501px;
+  height: 791px;
+  margin-top: 20px;
+  position: relative;
+  background-image: url(../img/p2-center-box.png);
+}
+.up .up-center .p2-center-box .p2-box1 {
+  position: absolute;
+  top: 50px;
+  left: 305px;
+}
+.up .up-center .p2-center-box .p2-box2 .p2-box2-font {
+  top: 725px;
+  left: 68px;
+}
+.up .up-center .p2-center-box .p2-box2 .p2-box2-font2 {
+  top: 31px;
+  left: 32px;
+}
+.up .up-center .p2-center-box .p2-box3 .p2-box3-font {
+  top: 15px;
+  left: 15px;
+}
+.up .up-center .p2-center-box .p2-box3 .p2-box3-font2 {
+  top: 595px;
+  left: 100px;
+}
+.up .up-center .p2-center-box .p2-box4 .p2-box4-font {
+  top: 680px;
+  left: 105px;
+}
+.up .up-center .p2-center-box .p2-box4 .p2-box4-font2 {
+  top: 578px;
+  left: 10px;
+}
+.up .up-center .p2-center-box .p2-box5 .p2-box5-font {
+  top: 35px;
+  left: 105px;
+}
+.up .up-center .p2-center-box .p2-box5 .p2-box5-font2 {
+  top: 587px;
+  left: 182px;
+}
+.up .up-center .photo-album {
+  top: 875px;
+  left: 227px;
+}
+.up .up-center .qrup-btn {
+  width: 243px;
+  height: 83px;
+  position: absolute;
+  top: 995px;
+  left: 85px;
+}
+.up .up-center input {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 875px;
+  left: 227px;
+  opacity: 0;
+}
+.save .save-start {
+  top: 50px;
+  left: 32px;
+}
+.save .save-center {
+  width: 501px;
+  height: 791px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+.save .save-center .save-savebtn,
+.save .save-center .save-phbbtn {
+  width: 298px;
+  height: 146px;
+  position: absolute;
+  top: 886px;
+}
+.save .save-center .save-savebtn {
+  left: -75px;
+}
+.save .save-center .save-phbbtn {
+  right: -20px;
+}
+.save .save-fxbtn-box {
+  width: 75px;
+  height: 42px;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+.ranking .r-start {
+  top: 60px;
+  left: 42px;
+}
+.ranking .r-phb {
+  top: 77px;
+  left: 210px;
+}
+.ranking .r-fh {
+  width: 93px;
+  height: 78px;
+  position: absolute;
+  top: 25px;
+  right: 5px;
+}
+.ranking .ranking-ul {
+  width: 594px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 205px;
+}
+.ranking .ranking-ul li {
+  width: 594px;
+  height: 120px;
+  background-image: url(../img/r-listbg.png);
+  position: relative;
+  margin-bottom: 45px;
+  overflow: hidden;
+}
+.ranking .ranking-ul li .tx {
+  position: absolute;
+  left: 0;
+}
+.ranking .ranking-ul li .jp {
+  position: absolute;
+  top: 30px;
+  left: 295px;
+}
+.ranking .ranking-ul span:nth-of-type(1) {
+  display: inline-block;
+  position: absolute;
+  left: 150px;
+  top: 52px;
+  font-size: 23px;
+  color: #002d72;
+}
+.ranking .ranking-ul span:nth-of-type(2) {
+  display: inline-block;
+  position: absolute;
+  left: 395px;
+  top: 45px;
+  font-size: 35px;
+  color: #002d72;
+}
+.ranking .ranking-ul .love {
+  width: 45px;
+  height: 42px;
+  position: absolute;
+  top: 42px;
+  left: 510px;
+}
+.ranking .ranking-ul .love .r-loveshi {
+  display: none;
+}
+.ranking .r-456 {
+  position: absolute;
+  top: 758px;
+  left: 385px;
+}
+.ranking .paly-btn {
+  width: 298px;
+  height: 146px;
+  position: absolute;
+  top: 1178px;
+  left: 210px;
+}
+@media screen and (max-height: 1230px) {
+  .ranking .r-phb {
+    top: 25px;
+    left: 210px;
+  }
+  .ranking .ranking-ul {
+    margin-top: 115px;
+  }
+  .ranking .paly-btn {
+    width: 298px;
+    height: 146px;
+    position: absolute;
+    top: 1070px;
+    left: 210px;
+  }
+}

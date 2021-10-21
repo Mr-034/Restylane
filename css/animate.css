@@ -1,0 +1,199 @@
+/* 星星动画 */
+@keyframes flash {
+
+    from,
+    50%,
+    to {
+        opacity: 1;
+    }
+
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+
+.home-start,
+.p2-start,
+.save-start,
+.r-start {
+    /* animation: flash 1.5s ease both; */
+    animation: flash 1.5s ease infinite;
+}
+
+/* 气球动画 */
+@keyframes pulse {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.05, 1.05, 1.05);
+        transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.home-balloon2 {
+    animation: pulse 1.5s ease-in infinite;
+}
+
+/* 气球2动画 */
+@keyframes backInUp {
+    0% {
+        -webkit-transform: translateY(1200px) scale(0.7);
+        transform: translateY(1200px) scale(0.7);
+        opacity: 0;
+        display: none;
+    }
+
+    80% {
+        -webkit-transform: translateY(0px) scale(0.7);
+        transform: translateY(0px) scale(0.7);
+        opacity: 0.7;
+        display: none;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+        display: block;
+    }
+}
+
+.home-balloon {
+    animation: backInUp 1.5s ease-in both 3s;
+}
+
+/* 女人动画 */
+@keyframes backInLeft {
+    0% {
+        -webkit-transform: translateX(-2000px) scale(0.7);
+        transform: translateX(-2000px) scale(0.7);
+        opacity: 0.7;
+    }
+
+    80% {
+        -webkit-transform: translateX(0px) scale(0.7);
+        transform: translateX(0px) scale(0.7);
+        opacity: 0.7;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.home-woman,
+.save-savebtn {
+    animation: backInLeft 1s ease both;
+}
+
+/* 爱心动画 */
+.home-love,
+.home-scard,
+.home-card,
+.r-fh {
+    animation: flash 3s ease both;
+}
+
+/* 生成海报动画 */
+@keyframes heartBeat {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    14% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    28% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    42% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    70% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.p1-create-poster,
+.qrup-btn {
+    animation: heartBeat 2s ease both;
+}
+
+@keyframes backInDown {
+    0% {
+        -webkit-transform: translateY(-1200px) scale(0.7);
+        transform: translateY(-1200px) scale(0.7);
+        opacity: 0.7;
+    }
+
+    80% {
+        -webkit-transform: translateY(0px) scale(0.7);
+        transform: translateY(0px) scale(0.7);
+        opacity: 0.7;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.rule-btn {
+    animation: backInDown 1s ease both 1s;
+}
+
+.p1-leave-words {
+    animation: backInDown 2s ease both 2s;
+}
+
+/* 保存页按钮 */
+@keyframes backInRight {
+    0% {
+        -webkit-transform: translateX(2000px) scale(0.7);
+        transform: translateX(2000px) scale(0.7);
+        opacity: 0.7;
+    }
+
+    80% {
+        -webkit-transform: translateX(0px) scale(0.7);
+        transform: translateX(0px) scale(0.7);
+        opacity: 0.7;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.save-phbbtn {
+    animation: backInRight 2s ease both;
+}
+/* 榜单页动画 */
+.r-phb{
+    animation: backInDown 1s ease both;
+}
+.paly-btn {
+    animation: backInUp 1.5s ease-in both;
+}
